@@ -20,6 +20,11 @@ ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 4096 -C "liangchengj@outlook.com"
 ``` bash
 ssh-keygen -R "host.danger.icu"
 ```
+**Do this to fix `sshd: no hostkeys available -- exiting.`**
+``` bash
+ssh-keygen -t dsa -N '' -f /etc/ssh/ssh_host_dsa_key -q && \
+ssh-keygen -t rsa -N '' -f /etc/ssh/ssh_host_rsa_key -q -b 4096
+```
 ***
 ***
 ### Windows hidden folder
