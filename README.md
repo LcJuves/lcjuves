@@ -74,7 +74,7 @@ int main(int argc, char const *argv[])
 #### [About Me](https://web-fronted.xyz/assets/pdf/cv.pdf)
 
 <!--
-**liangchengj/liangchengj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**LiangchengJ/liangchengj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
