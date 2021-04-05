@@ -45,3 +45,14 @@ git config --global core.eol lf && \
 git config --global core.autocrlf false && \
 git config --global core.safecrlf true
 ```
+***
+***
+### How to find broken soft links in a directory
+Use this command to find broken soft links
+``` bash
+find -L $(pwd) -type l
+```
+- You can also specify the action by `-delete`. For example, delete the soft links that are broken in the current directory
+``` bash
+find -L $(pwd) -type l -delete
+```
