@@ -28,20 +28,21 @@ int main(int argc, char const *argv[])
 
 int main(int argc, char const *argv[])
 {
-    char bar_out[51] = {'\0'};
-    char const *bar_lab = "-\\|/";
-    int perc = 0;
-    while (perc <= 100)
-    {
-        printf("\r %c \033[42m%s\033[0m [ %d%% ] ", bar_lab[perc % 4], bar_out, perc);
-        fflush(stdout);
-        usleep(60000);
-        bar_out[perc / 2] = ' ';
-        bar_out[perc / 2 + 1] = '\0';
-        perc++;
-    }
-    printf("\n");
-    return 0;
+	char bar_out[51] = {'\0'};
+	char const *bar_lab = "-\\|/";
+	int perc = 0;
+	while (perc <= 100)
+	{
+		printf("\r %c \033[42m%s\033[0m [ %d%% ] ",
+			   bar_lab[perc % 4], bar_out, perc);
+		fflush(stdout);
+		usleep(60000);
+		bar_out[perc / 2] = ' ';
+		bar_out[perc / 2 + 1] = '\0';
+		perc++;
+	}
+	printf("\n");
+	return 0;
 }
 ```
 
