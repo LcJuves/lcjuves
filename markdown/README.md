@@ -56,3 +56,7 @@ find -L $(pwd) -type l
 ``` bash
 find -L $(pwd) -type l -delete
 ```
+- May appear: 'find: -delete: forbidden when symlinks are followed', you can do this
+``` bash
+sudo rm -rf "$(find -L $(pwd) -type l)"
+```
