@@ -1,16 +1,21 @@
 # Markdown
 ## Generate macOS Big Sur lazy installation package
 ``` bash
-hdiutil create -o ~/Desktop/Big\ Sur.dmg -size 13000m -volname Big\ Sur -layout SPUD -fs HFS+J
+macos_version="Big Sur" && \
+macos_name="macOS ${macos_version}" && \
+volsize=13000m && \
 
-hdiutil attach ~/Desktop/Big\ Sur.dmg -noverify -mountpoint /Volumes/Big\ Sur
+hdiutil create -o ~/Desktop/"${macos_name}.dmg" -size ${volsize} -volname "${macos_name}" \
+-layout SPUD -fs HFS+J && \
 
-sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia \
---volume /Volumes/Big\ Sur --nointeraction
+hdiutil attach ~/Desktop/"${macos_name}.dmg" -noverify -mountpoint "/Volumes/${macos_name}" && \
 
-hdiutil detach /Volumes/Install\ macOS\ Big\ Sur
+sudo "/Applications/Install ${macos_name}.app/Contents/Resources/createinstallmedia" \
+--volume "/Volumes/${macos_name}" --nointeraction && \
 
-hdiutil convert ~/Desktop/Big\ Sur.dmg -format UDTO -o ~/Desktop/Big\ Sur.cdr
+hdiutil detach "/Volumes/Install ${macos_name}" && \
+
+hdiutil convert ~/Desktop/"${macos_name}.dmg" -format UDTO -o ~/Desktop/"${macos_name}.cdr"
 ```
 ***
 ***
