@@ -20,7 +20,13 @@ hdiutil convert ~/Desktop/"${macos_name}.dmg" -format UDTO -o ~/Desktop/"${macos
 ***
 ***
 ``` bash
-ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 4096 -C "liangchengj@outlook.com"
+ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 4096 \
+-C "liangchengj@outlook.com"
+```
+Fedora can following this
+``` bash
+ssh-keygen -t ed25519 -N '' -f ~/.ssh/id_ed25519 -q -b 4096 \
+-C "liangchengj@outlook.com"
 ```
 ``` bash
 ssh-keygen -R "host.danger.icu"
