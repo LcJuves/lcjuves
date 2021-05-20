@@ -29,7 +29,7 @@ use std::time::Duration;
 fn main() -> Result<()> {
     let mut bar_out = ['\0'; 51];
     let bar_lab: &str = "-\\|/";
-    let mut perc = 0usize;
+    let mut perc = 0;
     while perc <= 100 {
         print!(
             "\r {} \u{1b}[42m{}\u{1b}[0m [ {}% ] ",
