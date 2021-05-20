@@ -22,8 +22,7 @@ fn main() {
  *
  * @author Liangcheng Juves
  */
-use std::io::stdout;
-use std::io::{Result, Write};
+use std::io::{stdout, Result, Write};
 use std::thread::sleep;
 use std::time::Duration;
 
@@ -54,8 +53,7 @@ fn main() -> Result<()> {
  *
  * @author Liangcheng Juves
  */
-use std::io::stdout;
-use std::io::{Result, Write};
+use std::io::{stdout, Result, Write};
 use std::thread::sleep;
 use std::time::{Duration, SystemTime, UNIX_EPOCH};
 
