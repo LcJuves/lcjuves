@@ -66,7 +66,7 @@ int main(int argc, char const *argv[])
     forever
     {
         printf("\r%ld", time(NULL));
-        usleep(600);
+        usleep(300);
         fflush(stdout);
     }
     return 0;
