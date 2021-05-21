@@ -38,7 +38,7 @@ fn main() -> Result<()> {
             perc
         );
         stdout().flush()?;
-        sleep(Duration::from_micros(60000));
+        sleep(Duration::from_micros(60_000));
         bar_out[perc / 2] = ' ';
         perc += 1;
     }
