@@ -2,7 +2,16 @@
 *.bat text eol=crlf
 *.png binary
 *.jpg binary
+*.jpeg binary
+*.bmp binary
+*.webp binary
 *.doc* binary
+*.xls* binary
+*.ppt* binary
 *.mp3 binary
 *.mp4 binary
 *.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.lib binary
