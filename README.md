@@ -7,7 +7,7 @@
 
 ``` rust
 /**
- * Created at 2020/8/22 20:40.
+ * Created at 2020/8/22 20:40
  *
  * @author Liangcheng Juves
  */
@@ -18,7 +18,7 @@ fn main() {
 
 ``` rust
 /**
- * Created at 2020/9/15 15:14.
+ * Created at 2020/9/15 15:14
  *
  * @author Liangcheng Juves
  */
@@ -49,7 +49,7 @@ fn main() -> Result<()> {
 
 ``` rust
 /**
- * Created at 2020/11/16 22:49.
+ * Created at 2020/11/16 22:49
  *
  * @author Liangcheng Juves
  */
