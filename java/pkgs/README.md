@@ -17,8 +17,8 @@ sudo yum install xorg-x11-server-Xvfb
 ```
 ### Following this to run it
 ``` bash
-wget http://mirrors.jenkins.io/war-stable/2.277.1/jenkins.war && \
-java -jar jenkins.war --httpPort=22771 -Djava.awt.headless=true > jenkins_2.277.1.log 2>&1 &
+wget http://mirrors.jenkins.io/war-stable/2.289.1/jenkins.war && \
+java -jar jenkins.war --httpPort=22891 -Djava.awt.headless=true > jenkins_2.289.1.log 2>&1 &
 ```
 **[Click me](http://mirrors.jenkins.io/war-stable/2.277.1/jenkins.war)** to dowload `jenkins.war`
 ***
