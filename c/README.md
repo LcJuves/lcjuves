@@ -23,7 +23,8 @@ How to use `7z` to eXtract files
 ``` bash
 7z x en_visual_studio_2010_express_x86_dvd_510419.iso -oen_visual_studio_2010_express_x86_dvd_510419
 ```
-Install silently using the command line
+Install silently using the command line<br/>
+Can see by [this](https://docs.microsoft.com/zh-cn/previous-versions/visualstudio/visual-studio-2010/e2h7fzkw(v=vs.100))
 ``` bash
 en_visual_studio_2010_express_x86_dvd_510419\VCExpress\setup.exe /q /full /norestart
 ```
