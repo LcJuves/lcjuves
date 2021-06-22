@@ -11,3 +11,5 @@ npm install --global windows-build-tools --vs2017
 ``` bash
 npm uninstall global windows-build-tools
 ```
+***
+[Visual Studio Express 2010](https://download.my.visualstudio.com/pr/en_visual_studio_2010_express_x86_dvd_510419.iso?t=e9342239-1935-4cfa-b4df-0b6bacafd391&e=1624405502&h=9bc2c1aa791aa48ecfd1a481f27400d8&su=1)
