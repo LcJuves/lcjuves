@@ -4,6 +4,6 @@
 ***
 Quick start to run `timestamp.sh` can following this
 ``` bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/LiangchengJ/liangchengj/main/c/linux/timestamp.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/LiangchengJ/liangchengj/main/clang/linux-like/timestamp.sh)"
 ```
 [Fedora Workstation 34](https://dl.fedoraproject.org/pub/fedora/linux/releases/34/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-34-1.2.iso)
