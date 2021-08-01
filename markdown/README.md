@@ -28,9 +28,6 @@ Fedora can following this
 ssh-keygen -t ed25519 -N '' -f ~/.ssh/id_ed25519 -q -b 4096 \
 -C "liangchengj@outlook.com"
 ```
-``` bash
-ssh-keygen -R "host.danger.icu"
-```
 **Do this to fix `sshd: no hostkeys available -- exiting.`**
 ``` bash
 ssh-keygen -t dsa -N '' -f /etc/ssh/ssh_host_dsa_key -q && \
