@@ -61,11 +61,7 @@ Use this command to find broken soft links
 ``` bash
 find -L $(pwd) -type l
 ```
-- You can also specify the action by `-delete`. For example, delete the soft links that are broken in the current directory
-``` bash
-find -L $(pwd) -type l -delete
-```
-- May appear: 'find: -delete: forbidden when symlinks are followed', you can do this
+Delete the soft links that are broken in the current directory, you can do this
 ``` bash
 sudo rm -rf "$(find -L $(pwd) -type l)"
 ```
