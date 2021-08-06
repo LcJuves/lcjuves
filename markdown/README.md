@@ -61,7 +61,3 @@ Use this command to find broken soft links
 ``` bash
 find -L $(pwd) -type l
 ```
-Delete the soft links that are broken in the current directory, you can do this
-``` bash
-sudo rm -rf "$(find -L $(pwd) -type l)"
-```
