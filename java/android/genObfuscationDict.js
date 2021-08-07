@@ -6,8 +6,8 @@
 
 // @ts-check
 
-// deno run --allow-write gen_obfuscation_dict.js
-// node gen_obfuscation_dict.js
+// deno run --allow-write genObfuscationDict.js
+// node genObfuscationDict.js
 
 const result = new Set();
 
