@@ -30,8 +30,10 @@ ssh-keygen -t ed25519 -N '' -f ~/.ssh/id_ed25519 -q -b 4096 \
 ```
 **Do this to fix `sshd: no hostkeys available -- exiting.`**
 ``` bash
-ssh-keygen -t dsa -N '' -f /etc/ssh/ssh_host_dsa_key -q && \
-ssh-keygen -t rsa -N '' -f /etc/ssh/ssh_host_rsa_key -q -b 4096
+ssh-keygen -t dsa -N '' -f /etc/ssh/ssh_host_dsa_key -q -C "liangchengj@outlook.com" && \
+ssh-keygen -t rsa -N '' -f /etc/ssh/ssh_host_rsa_key -q -b 4096 -C "liangchengj@outlook.com" && \
+ssh-keygen -t ecdsa -N '' -f /etc/ssh/ssh_host_ecdsa_key -q -C "liangchengj@outlook.com" && \
+ssh-keygen -t ed25519 -N '' -f /etc/ssh/ssh_host_ed25519_key -q -b 4096 -C "liangchengj@outlook.com"
 ```
 ***
 ***
