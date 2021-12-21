@@ -1,4 +1,9 @@
 * text=auto eol=lf
+*.rs text eol=lf
+*.java text eol=lf
+*.js text eol=lf
+*.dart text eol=lf
+*.sh text eol=lf
 *.bat text eol=crlf
 *.png binary
 *.jpg binary
