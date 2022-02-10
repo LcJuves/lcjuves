@@ -61,7 +61,6 @@ pacman-key --init
 pacman-key --refresh-keys
 pacman-key --populat msys2
 pacman -Sydd --overwrite="*" --noconfirm ca-certificates
-pacman -Sydd --overwrite="*" --noconfirm bash
 /git-bash.exe --login -i
 pacman -Syu --overwrite="*" --noconfirm
 pacman -Sydd --overwrite="*" --noconfirm pacman
