@@ -3,7 +3,7 @@
 # @author Liangcheng Juves
 
 
-# Git-x.y.z-64-bit.exe /VERYSILENT /NORESTART /DIR="C:\Git" /NOICONS
+# Git-x.y.z-64-bit.exe /VERYSILENT /NORESTART /DIR="C:\Git"
 # C:\Git\unins000.exe /VERYSILENT /NORESTART
 
 # MSYS2 Packages
@@ -74,7 +74,6 @@ pacman -Sydd --overwrite="*" --noconfirm pacman
 pacman -Sydd --overwrite="*" --noconfirm pacman-mirrors
 pacman -Sydd --overwrite="*" --noconfirm msys2-keyring
 pacman -S --overwrite="*" --noconfirm mingw-w64-${PACMAN_ARCH}-gcc
-pacman -S --overwrite="*" --noconfirm mingw-w64-${PACMAN_ARCH}-zig
 pacman -Sy --dbonly --noconfirm pacman
 
 rm -rf "${TEMP_DIR}"
