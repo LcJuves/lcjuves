@@ -2,6 +2,10 @@
 # Created at 2021/8/12 23:42
 # @author Liangcheng Juves
 
+
+# Git-x.y.z-64-bit.exe /VERYSILENT /NORESTART /DIR="C:\Git" /NOICONS
+# C:\Git\unins000.exe /VERYSILENT /NORESTART
+
 # MSYS2 Packages
 # https://packages.msys2.org/
 
