@@ -2,6 +2,9 @@
 # Created at 2021/8/12 23:42
 # @author Liangcheng Juves
 
+# MSYS2 Packages
+# https://packages.msys2.org/
+
 # export HTTP_PROXY=http://127.0.0.1:10809
 # export HTTPS_PROXY=http://127.0.0.1:10809
 
