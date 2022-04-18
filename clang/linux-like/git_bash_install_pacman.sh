@@ -74,7 +74,6 @@ pacman -Sydd --overwrite="*" --noconfirm pacman
 pacman -Sydd --overwrite="*" --noconfirm pacman-mirrors
 pacman -Sydd --overwrite="*" --noconfirm msys2-keyring
 pacman -S --overwrite="*" --noconfirm mingw-w64-${PACMAN_ARCH}-gcc
-pacman -S --overwrite="*" --noconfirm mingw-w64-${PACMAN_ARCH}-clang
 pacman -Sy --dbonly --noconfirm pacman
 
 rm -rf "${TEMP_DIR}"
