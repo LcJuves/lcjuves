@@ -11,4 +11,4 @@ Git Bash install `pacman` can following this
 ``` bash
 bash -c "$(curl -fsSL https://github.com/LiangchengJ/liangchengj/raw/main/clang/linux-like/git_bash_install_pacman.sh)"
 ```
-[Fedora Workstation 35](https://dl.fedoraproject.org/pub/fedora/linux/releases/35/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-35-1.2.iso)
+[Debian 11](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-11.3.0-amd64-DVD-1.iso)
