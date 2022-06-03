@@ -22,8 +22,8 @@ ssh-keygen -t dsa -N '' -f /etc/ssh/ssh_host_dsa_key -q -C "$USER_EMAIL" &&
     ssh-keygen -t ecdsa -N '' -f /etc/ssh/ssh_host_ecdsa_key -q -C "$USER_EMAIL" &&
     ssh-keygen -t ed25519 -N '' -f /etc/ssh/ssh_host_ed25519_key -q -b 4096 -C "$USER_EMAIL"
 
-ssh-keygen -R github.com
-ssh-keygen -R gitlab.com
-ssh-keygen -R bitbucket.org
-ssh-keygen -R jihulab.com
-ssh-keygen -R gitee.com
+ssh-keygen -r github.com
+ssh-keygen -r gitlab.com
+ssh-keygen -r bitbucket.org
+ssh-keygen -r jihulab.com
+ssh-keygen -r gitee.com
