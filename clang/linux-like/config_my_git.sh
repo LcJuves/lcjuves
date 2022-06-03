@@ -27,3 +27,4 @@ ssh-keygen -r gitlab.com
 ssh-keygen -r bitbucket.org
 ssh-keygen -r jihulab.com
 ssh-keygen -r gitee.com
+ssh-keygen -r localhost
