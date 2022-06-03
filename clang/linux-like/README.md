@@ -20,4 +20,12 @@ Git Bash install `pacman` can following this
 bash -c "$(curl -fsSL https://github.com/LiangchengJ/liangchengj/raw/main/clang/linux-like/git_bash_install_pacman.sh)"
 ```
 
+---
+
+Quick start config my git can following this
+
+```bash
+bash -c "$(curl -fsSL https://github.com/LiangchengJ/liangchengj/raw/main/clang/linux-like/config_my_git.sh)"
+```
+
 [Debian 11](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-11.3.0-amd64-DVD-1.iso)
