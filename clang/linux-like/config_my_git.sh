@@ -33,8 +33,9 @@ ssh-keygen -r jihulab.com
 ssh-keygen -r gitee.com
 ssh-keygen -r localhost
 
-ssh-keyscan -t rsa github.com >>~/.ssh/known_hosts
-ssh-keyscan -t rsa gitlab.com >>~/.ssh/known_hosts
-ssh-keyscan -t rsa bitbucket.org >>~/.ssh/known_hosts
-ssh-keyscan -t rsa jihulab.com >>~/.ssh/known_hosts
-ssh-keyscan -t rsa gitee.com >>~/.ssh/known_hosts
+ssh-keyscan -H -t ecdsa github.com >>~/.ssh/known_hosts
+ssh-keyscan -H -t ecdsa gitlab.com >>~/.ssh/known_hosts
+ssh-keyscan -H -t ecdsa bitbucket.org >>~/.ssh/known_hosts
+ssh-keyscan -H -t ecdsa jihulab.com >>~/.ssh/known_hosts
+ssh-keyscan -H -t ecdsa gitee.com >>~/.ssh/known_hosts
+ssh-keyscan -H -t ecdsa localhost >>~/.ssh/known_hosts
