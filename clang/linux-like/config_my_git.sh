@@ -38,4 +38,3 @@ ssh-keyscan -H -t ecdsa gitlab.com >>~/.ssh/known_hosts
 ssh-keyscan -H -t ecdsa bitbucket.org >>~/.ssh/known_hosts
 ssh-keyscan -H -t ecdsa jihulab.com >>~/.ssh/known_hosts
 ssh-keyscan -H -t ecdsa gitee.com >>~/.ssh/known_hosts
-ssh-keyscan -H -t ecdsa localhost >>~/.ssh/known_hosts
