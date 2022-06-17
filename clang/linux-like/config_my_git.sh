@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2129
 
-USER_NAME="Liangcheng Juves"
-USER_EMAIL="liangchengj@outlook.com"
+if [ -z "$USER_NAME" ]; then
+    USER_NAME="Liangcheng Juves"
+fi
+
+if [ -z "$USER_EMAIL" ]; then
+    USER_EMAIL="liangchengj@outlook.com"
+fi
 
 git config --global user.name "$USER_NAME" &&
     git config --global user.email "$USER_EMAIL" &&
