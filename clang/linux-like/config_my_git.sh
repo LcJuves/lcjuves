@@ -18,7 +18,8 @@ if [ -n "$(command -v git)" ]; then
         git config --global core.symlinks true
 fi
 
-rm -rf ~/.ssh >/dev/null 2>&1
+rm -rf ~/.ssh/* >/dev/null 2>&1
+rm -rf /etc/ssh/* >/dev/null 2>&1
 
 ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 4096 \
     -C "$USER_EMAIL"
@@ -42,9 +43,9 @@ ssh-keygen -r gitee.com
 ssh-keygen -r localhost
 
 {
-    ssh-keyscan -H -t ecdsa github.com
-    ssh-keyscan -H -t ecdsa gitlab.com
-    ssh-keyscan -H -t ecdsa bitbucket.org
-    ssh-keyscan -H -t ecdsa jihulab.com
-    ssh-keyscan -H -t ecdsa gitee.com
+    ssh-keyscan -H -t rsa github.com
+    ssh-keyscan -H -t rsa gitlab.com
+    ssh-keyscan -H -t rsa bitbucket.org
+    ssh-keyscan -H -t rsa jihulab.com
+    ssh-keyscan -H -t rsa gitee.com
 } >>~/.ssh/known_hosts
