@@ -41,7 +41,7 @@ wget https://services.gradle.org/distributions/gradle-6.8.3-bin.zip
 Following this
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein)"
+curl -fsSL https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein | bash
 ```
 
 #### **`Sbt 1.4.9`**
