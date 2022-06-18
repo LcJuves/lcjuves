@@ -25,4 +25,4 @@ doc/ Complete documentation for cgicc in html format example/ A skeleton CGI
 application using cgicc and autoconf support/ Installation/configuration support
 files win/ Win32 project files
 
-[Click me to download the source code](https://raw.githubusercontent.com/LiangchengJ/liangchengj/main/c/cgicc/src.tar.xz)
+[Click me to download the source code](https://ftp.gnu.org/gnu/cgicc/cgicc-3.2.19.tar.gz)
