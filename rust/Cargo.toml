@@ -1,0 +1,28 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "ascii_art"
+path = "ascii_art.rs"
+
+[[bin]]
+name = "gh_qrcode"
+path = "gh_qrcode.rs"
+
+[[bin]]
+name = "hello_world"
+path = "hello_world.rs"
+
+[[bin]]
+name = "in_progress"
+path = "in_progress.rs"
+
+[[bin]]
+name = "time_flies"
+path = "time_flies.rs"

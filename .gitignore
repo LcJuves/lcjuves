@@ -193,3 +193,7 @@ _MACOSX
 # GDB
 gdb.setup
 gdbserver
+
+# Rust
+target
+Cargo.lock
