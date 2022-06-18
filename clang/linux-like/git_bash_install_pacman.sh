@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 # Created at 2021/8/12 23:42
 # @author Liangcheng Juves
 
@@ -18,7 +18,7 @@ TEMP_DIR="$(mktemp -d)"
 
 echo "Downloading zstd package"
 ZSTD_VERSION=v1.5.1
-if [ "$PACMAN_ARCH" == "x86_64" ]; then
+if [ "$PACMAN_ARCH" = "x86_64" ]; then
 	ZSTD_ARCH=win64
 else
 	ZSTD_ARCH=win32
@@ -75,5 +75,5 @@ pacman -Sydd --overwrite="*" --noconfirm msys2-keyring
 pacman -Sy --dbonly --noconfirm pacman
 
 rm -rf "${TEMP_DIR}"
-echo -e "\n"
+printf "\n"
 echo "Everything is ready, you can now enjoy pacman!"
