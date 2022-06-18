@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-# shellcheck disable=SC2129
+#!/bin/sh
 
 if [ -z "$USER_NAME" ]; then
     USER_NAME="Liangcheng Juves"
@@ -9,13 +8,15 @@ if [ -z "$USER_EMAIL" ]; then
     USER_EMAIL="liangchengj@outlook.com"
 fi
 
-git config --global user.name "$USER_NAME" &&
-    git config --global user.email "$USER_EMAIL" &&
-    git config --global init.defaultBranch main &&
-    git config --global core.eol lf &&
-    git config --global core.autocrlf false &&
-    git config --global core.safecrlf true &&
-    git config --global core.symlinks true
+if [ -n "$(command -v git)" ]; then
+    git config --global user.name "$USER_NAME" &&
+        git config --global user.email "$USER_EMAIL" &&
+        git config --global init.defaultBranch main &&
+        git config --global core.eol lf &&
+        git config --global core.autocrlf false &&
+        git config --global core.safecrlf true &&
+        git config --global core.symlinks true
+fi
 
 ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 4096 \
     -C "$USER_EMAIL"
@@ -38,8 +39,10 @@ ssh-keygen -r jihulab.com
 ssh-keygen -r gitee.com
 ssh-keygen -r localhost
 
-ssh-keyscan -H -t ecdsa github.com >>~/.ssh/known_hosts
-ssh-keyscan -H -t ecdsa gitlab.com >>~/.ssh/known_hosts
-ssh-keyscan -H -t ecdsa bitbucket.org >>~/.ssh/known_hosts
-ssh-keyscan -H -t ecdsa jihulab.com >>~/.ssh/known_hosts
-ssh-keyscan -H -t ecdsa gitee.com >>~/.ssh/known_hosts
+{
+    ssh-keyscan -H -t ecdsa github.com
+    ssh-keyscan -H -t ecdsa gitlab.com
+    ssh-keyscan -H -t ecdsa bitbucket.org
+    ssh-keyscan -H -t ecdsa jihulab.com
+    ssh-keyscan -H -t ecdsa gitee.com
+} >>~/.ssh/known_hosts
