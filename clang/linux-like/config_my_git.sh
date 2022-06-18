@@ -18,6 +18,8 @@ if [ -n "$(command -v git)" ]; then
         git config --global core.symlinks true
 fi
 
+rm -rf ~/.ssh >/dev/null 2>&1
+
 ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 4096 \
     -C "$USER_EMAIL"
 
