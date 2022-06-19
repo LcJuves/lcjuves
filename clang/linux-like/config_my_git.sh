@@ -19,7 +19,7 @@ if [ -n "$(command -v git)" ]; then
 fi
 
 rm -rf ~/.ssh/* >/dev/null 2>&1
-rm -rf /etc/ssh/* >/dev/null 2>&1
+rm -rf /etc/ssh/ssh_host_* >/dev/null 2>&1
 
 ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 4096 \
     -C "$USER_EMAIL"
