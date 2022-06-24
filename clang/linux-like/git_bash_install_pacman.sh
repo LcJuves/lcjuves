@@ -73,6 +73,7 @@ pacman -Sydd --overwrite="*" --noconfirm pacman
 pacman -Sydd --overwrite="*" --noconfirm pacman-mirrors
 pacman -Sydd --overwrite="*" --noconfirm msys2-keyring
 pacman -Sy --dbonly --noconfirm pacman
+/git-bash.exe --login -i
 
 rm -rf "${TEMP_DIR}"
 printf "\n"
