@@ -28,4 +28,4 @@ Quick start config my git can following this
 curl -fsSL https://github.com/LiangchengJ/liangchengj/raw/main/clang/linux-like/config_my_git.sh | sh
 ```
 
-[Debian 11](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-11.3.0-amd64-DVD-1.iso)
+[Debian 11](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-11.4.0-amd64-DVD-1.iso)
