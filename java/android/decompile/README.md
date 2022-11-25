@@ -22,12 +22,12 @@ wget https://github.com/pxb1988/dex2jar/releases/download/2.0/dex-tools-2.0.zip
 
 ---
 
-## **`JADX 1.2.0`**
+## **`JADX 1.4.5`**
 
 For download
 
 ```bash
-wget https://github.com/skylot/jadx/releases/download/v1.2.0/jadx-1.2.0.zip
+wget https://github.com/skylot/jadx/releases/download/v1.4.5/jadx-1.4.5.zip
 ```
 
 ---
