@@ -71,8 +71,6 @@ fn main() -> Result<()> {
 
 #### [Open Developer Books](https://odb.liangchengj.com)
 
-#### [About Me](https://web-fronted.xyz/assets/pdf/cv.pdf)
-
 <!--
 **LiangchengJ/liangchengj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
