@@ -19,10 +19,12 @@ https://savannah.gnu.org/projects/cgicc
 
 This package should contain the following directories:
 
-cgicc/ The source code to the GNU cgicc library contrib/ Contributed non-parsed
-header and FastCgi examples demo/ Four demonstration applications using cgicc
-doc/ Complete documentation for cgicc in html format example/ A skeleton CGI
-application using cgicc and autoconf support/ Installation/configuration support
-files win/ Win32 project files
+cgicc/&emsp;&emsp;&emsp;&emsp;The source code to the GNU cgicc library</br>
+contrib/&emsp;&emsp;&emsp;&nbsp;Contributed non-parsed header and FastCgi examples</br>
+demo/&emsp;&emsp;&emsp;&emsp;Four demonstration applications using cgicc</br>
+doc/&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;Complete documentation for cgicc in html format</br>
+example/&emsp;&emsp;&nbsp;&nbsp;&nbsp;A skeleton CGI application using cgicc and autoconf</br>
+support/&emsp;&emsp;&emsp;Installation/configuration support files</br>
+win/&emsp;&emsp;&emsp;&emsp;&emsp;Win32 project files
 
 [Click me to download the source code](https://ftp.gnu.org/gnu/cgicc/cgicc-3.2.19.tar.gz)
