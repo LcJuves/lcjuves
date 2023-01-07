@@ -69,7 +69,7 @@ fn main() -> Result<()> {
 }
 ```
 
-#### [Open Developer Books](https://odb.liangchengj.com)
+#### [Open Developer Books](https://odb.lcjuves.com)
 
 <!--
 **LiangchengJ/liangchengj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

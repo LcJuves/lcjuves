@@ -5,7 +5,7 @@ if [ -z "$USER_NAME" ]; then
 fi
 
 if [ -z "$USER_EMAIL" ]; then
-    USER_EMAIL="liangchengj@outlook.com"
+    USER_EMAIL="email@lcjuves.com"
 fi
 
 if [ -n "$(command -v git)" ]; then

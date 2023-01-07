@@ -17,7 +17,7 @@ wget https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.
 How to make dependency downloads faster in China, following this
 
 ```bash
-curl -o ~/.m2/settings.xml https://github.liangchengj.com/java/mvn_settings.xml
+curl -o ~/.m2/settings.xml https://github.lcjuves.com/java/mvn_settings.xml
 ```
 
 #### **`Ant 1.10.9`**
