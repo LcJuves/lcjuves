@@ -28,4 +28,12 @@ Quick start config my git can following this
 curl -fsSL https://github.lcjuves.com/clang/linux-like/config_my_git.sh | sh
 ```
 
+---
+
+A quick way to setup Rust is to use the following command
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://github.lcjuves.com/clang/linux-like/setup-rust.sh | sh
+```
+
 Debian 11 [amd64](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-11.6.0-amd64-DVD-1.iso) | [arm64](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/debian-11.6.0-arm64-DVD-1.iso)
