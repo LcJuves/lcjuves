@@ -8,6 +8,7 @@ use std::io::{stdout, Result, Write};
 fn main() -> Result<()> {
     let ascii_art_bytes = include_bytes!("../banner.txt");
     stdout().write_all(ascii_art_bytes)?;
+    stdout().write(&vec![b'\n'])?;
     stdout().flush()?;
     Ok(())
 }
