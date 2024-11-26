@@ -69,6 +69,7 @@ fn main() -> Result<()> {
 }
 ```
 
+### [My Personal Blog](https://blog.lcjuves.com)
 #### [Open Developer Books](https://odb.lcjuves.com)
 
 <!--
