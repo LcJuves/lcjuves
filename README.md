@@ -70,6 +70,7 @@ fn main() -> Result<()> {
 ```
 
 #### [My Personal Blog](https://blog.lcjuves.com)
+#### [Document Navigation](https://docs.lcjuves.com)
 #### [Open Developer Books](https://odb.lcjuves.com)
 
 <!--
