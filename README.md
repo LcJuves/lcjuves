@@ -4,7 +4,7 @@
 
 #### My feature programming languages
 
-<img src="https://camo.githubusercontent.com/36e0b48e09872c783d3c8bc98ad0b761cc770826813ec9fa0d3d0c4d81569f55/68747470733a2f2f7765622d66726f6e74656e642e78797a2f6173736574732f7376672f5f527573742e737667" width="47" height="47" alt="Rust"/>&emsp;<img src="https://camo.githubusercontent.com/769185bc3cd08a26a029a0d81b405933b57bb19a500da42a441c94e6ca3f6e68/68747470733a2f2f7765622d66726f6e74656e642e78797a2f6173736574732f7376672f5a49472e737667" width="47" height="47" alt="ZIG"/>&emsp;<img src="https://camo.githubusercontent.com/c2c16ad403da9c8d1d9cb03e25fd2313a399a785de3a3fef599d92e5f070a292/68747470733a2f2f7765622d66726f6e74656e642e78797a2f6173736574732f7376672f4a6176612e737667" width="47" height="47" alt="Java"/>&emsp;<img src="https://camo.githubusercontent.com/a6d9bbadc6ef237b9eeb4ce3dcb3a860633652b2aedd1fa1eb955eb90c4da55d/68747470733a2f2f7765622d66726f6e74656e642e78797a2f6173736574732f7376672f446172742e737667" width="47" height="47" alt="Dart"/>
+<img src="https://web.lcjuves.com/assets/svg/_Rust.svg" width="47" height="47" alt="Rust"/>&emsp;<img src="https://web.lcjuves.com/assets/svg/ZIG.svg" width="47" height="47" alt="ZIG"/>&emsp;<img src="https://web.lcjuves.com/assets/svg/Java.svg" width="47" height="47" alt="Java"/>&emsp;<img src="https://web.lcjuves.com/assets/svg/Dart.svg" width="47" height="47" alt="Dart"/>
 
 ```rust
 /**
