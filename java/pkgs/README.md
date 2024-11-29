@@ -33,19 +33,3 @@ bash -c "java -jar jenkins.war --httpPort=22891 -Djava.awt.headless=true > jenki
 
 **[Click me](https://get.jenkins.io/war-stable/2.289.1/jenkins.war)** to dowload
 `jenkins.war`
-
----
-
-### `YUI Compressor`
-
-For download
-
-```bash
-curl -o yuicompressor.jar https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.jar
-```
-
-How to use with `IntelliJ IDEA`
-
-```bash
-java -jar yuicompressor.jar --type js --charset utf-8 $FilePath$ -o $FileNameWithoutExtension$.min.js $FileDir$
-```
