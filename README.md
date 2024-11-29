@@ -72,7 +72,7 @@ fn main() -> Result<()> {
 #### [My Personal Blog](https://blog.lcjuves.com)  |  [Document Navigation](https://docs.lcjuves.com)  |  [Open Developer Books](https://odb.lcjuves.com)
 
 <!--
-**LiangchengJ/liangchengj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**LcJuves/lcjuves** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
