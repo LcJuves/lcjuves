@@ -68,7 +68,8 @@ fn main() -> Result<()> {
     }
 }
 ```
-
+## [Rustaceans Or Ferris Says](https://gitlab.com/LcJuves/Rustaceans)
+### At least those who provide the best things to people for free should be respected !!!
 #### [My Personal Blog](https://blog.lcjuves.com)  |  [Document Navigation](https://docs.lcjuves.com)  |  [Open Developer Books](https://odb.lcjuves.com)
 
 <!--
