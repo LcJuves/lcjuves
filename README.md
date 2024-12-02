@@ -70,7 +70,7 @@ fn main() -> Result<()> {
 ```
 ## [Rustaceans Or Ferris Says](https://gitlab.com/LcJuves/Rustaceans)
 ### At least those who provide the best things to people for free should be respected !!!
-#### [My Personal Blog](https://blog.lcjuves.com)  |  [Document Navigation](https://docs.lcjuves.com)  |  [Open Developer Books](https://odb.lcjuves.com)
+#### [My Personal Blog](https://blog.lcjuves.com)  |  [Documentation Navigator](https://docs.lcjuves.com)  |  [Open Developer Books](https://odb.lcjuves.com)
 
 <!--
 **LcJuves/lcjuves** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
