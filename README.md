@@ -69,8 +69,8 @@ fn main() -> Result<()> {
 }
 ```
 ## <img src="https://web.lcjuves.com/assets/svg/Rustacean%20Original.svg" width="32" height="32" alt="Rustacean Original" align="top"/>&nbsp; [Rustaceans Or Ferris Says](https://github.com/LcJuves/rustaceans)
-### [Click me](https://github.com/meyoustu) to discover the joy of life 🤪🤪🤪
 ### At least those who provide the best things to people for free should be respected !!!
+### [Click me](https://github.com/meyoustu) to discover the joy of life 🤪🤪🤪
 #### [My Personal Blog](https://blog.lcjuves.com)  |  [Documentation Navigator](https://docs.lcjuves.com)  |  [Open Developer Books](https://odb.lcjuves.com)
 
 <!--
