@@ -1,33 +1,33 @@
 # Android Decompile
 
-## **`Apktool 2.5.0`**
+## **`Apktool 2.11.1`**
 
 For download
 
 ```bash
-wget https://github.com/iBotPeaches/Apktool/releases/download/v2.5.0/apktool_2.5.0.jar
+wget https://github.com/iBotPeaches/Apktool/releases/download/v2.11.1/apktool_2.11.1.jar
 ```
 
 ### `wrapper script`&emsp;[Linux](https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool) | [macOS](https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/osx/apktool) | [Windows](https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/windows/apktool.bat)
 
 ---
 
-## **`dex2jar 2.0`**
+## **`dex2jar 2.4`**
 
 For download
 
 ```bash
-wget https://github.com/pxb1988/dex2jar/releases/download/2.0/dex-tools-2.0.zip
+wget https://github.com/pxb1988/dex2jar/releases/download/v2.4/dex-tools-v2.4.zip
 ```
 
 ---
 
-## **`JADX 1.4.5`**
+## **`JADX 1.5.1`**
 
 For download
 
 ```bash
-wget https://github.com/skylot/jadx/releases/download/v1.4.5/jadx-1.4.5.zip
+wget https://github.com/skylot/jadx/releases/download/v1.5.1/jadx-1.5.1.zip
 ```
 
 ---
