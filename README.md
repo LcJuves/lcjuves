@@ -4,11 +4,7 @@
 
 #### My feature programming languages
 
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://web.lcjuves.com/assets/svg/__Rust.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://web.lcjuves.com/assets/svg/Rust.svg"><img alt="Rust"
-        src="https://web.lcjuves.com/assets/svg/Rust.svg" width="47" height="47">
-</picture>&emsp;<img src="https://web.lcjuves.com/assets/svg/ZIG.svg" width="47" height="47" alt="ZIG" />&emsp;<img
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://web.lcjuves.com/assets/svg/__Rust.svg"><source media="(prefers-color-scheme: light)" srcset="https://web.lcjuves.com/assets/svg/Rust.svg"><img alt="Rust" src="https://web.lcjuves.com/assets/svg/Rust.svg" width="47" height="47"></picture>&emsp;<img src="https://web.lcjuves.com/assets/svg/ZIG.svg" width="47" height="47" alt="ZIG" />&emsp;<img
     src="https://web.lcjuves.com/assets/svg/Java.svg" width="47" height="47" alt="Java" />&emsp;<img
     src="https://web.lcjuves.com/assets/svg/Dart.svg" width="47" height="47" alt="Dart" />
 
