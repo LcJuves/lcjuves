@@ -8,16 +8,13 @@
 # MSYS2 Packages
 # https://packages.msys2.org/
 
-# export HTTP_PROXY=http://127.0.0.1:10809
-# export HTTPS_PROXY=http://127.0.0.1:10809
-
 PACMAN_ARCH="$(uname -m | tr -d "\r|\n")"
 URL_PREFIX=https://mirror.msys2.org/msys
 # URL_PREFIX=https://mirrors.tuna.tsinghua.edu.cn/msys2/msys
 TEMP_DIR="$(mktemp -d)"
 
 echo "Downloading zstd package"
-ZSTD_VERSION=v1.5.1
+ZSTD_VERSION=v1.5.7
 if [ "$PACMAN_ARCH" = "x86_64" ]; then
 	ZSTD_ARCH=win64
 else
@@ -33,7 +30,7 @@ unzip "${TEMP_DIR}/${ZSTD_ZIP_NAME}" -d "${TEMP_DIR}"
 ZSTD_EXE_PATH="${TEMP_DIR}/zstd.exe"
 
 echo "Downloading pacman package"
-PACMAN_VERSION=6.0.1-9
+PACMAN_VERSION=6.1.0-11
 PACMAN_PKG_NAME="pacman-${PACMAN_VERSION}-${PACMAN_ARCH}.pkg.tar.zst"
 curl -L -o "${TEMP_DIR}/${PACMAN_PKG_NAME}" "${URL_PREFIX}/${PACMAN_ARCH}/${PACMAN_PKG_NAME}"
 
@@ -42,7 +39,7 @@ tar -I "$ZSTD_EXE_PATH" -xvf "${TEMP_DIR}/${PACMAN_PKG_NAME}" -C /
 mv /usr/bin/pacman.exe /usr/bin/pacman
 
 echo "Downloading pacman mirrors package"
-PACMAN_MIRRORS_VERSION=20211230-1
+PACMAN_MIRRORS_VERSION=20250220-1
 PACMAN_MIRRORS_PKG_NAME="pacman-mirrors-${PACMAN_MIRRORS_VERSION}-any.pkg.tar.zst"
 curl -L -o "${TEMP_DIR}/${PACMAN_MIRRORS_PKG_NAME}" "${URL_PREFIX}/${PACMAN_ARCH}/${PACMAN_MIRRORS_PKG_NAME}"
 
@@ -53,7 +50,7 @@ echo "Reload Git Bash"
 /git-bash.exe --login -i
 
 echo "Downloading MSYS2 keyring package"
-KEYRING_VERSION=1~20211228-1
+KEYRING_VERSION=1~20250214-1
 KEYRING_PKG_EXT=zst
 KEYRING_PKG_NAME="msys2-keyring-${KEYRING_VERSION}-any.pkg.tar.$KEYRING_PKG_EXT"
 curl -L -o "${TEMP_DIR}/${KEYRING_PKG_NAME}" "${URL_PREFIX}/${PACMAN_ARCH}/${KEYRING_PKG_NAME}"
@@ -76,5 +73,6 @@ pacman -Sy --dbonly --noconfirm pacman
 /git-bash.exe --login -i
 
 rm -rf "${TEMP_DIR}"
+# pacman -S --overwrite="*" --noconfirm mingw-w64-clang-${PACMAN_ARCH}-clang
 printf "\n"
 echo "Everything is ready, you can now enjoy pacman!"
