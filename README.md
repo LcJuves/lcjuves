@@ -4,9 +4,9 @@
 
 #### My feature programming languages
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://web.lcjuves.com/assets/svg/__Rust.svg"><source media="(prefers-color-scheme: light)" srcset="https://web.lcjuves.com/assets/svg/Rust.svg"><img alt="Rust" src="https://web.lcjuves.com/assets/svg/Rust.svg" width="47" height="47"></picture>&emsp;<img src="https://web.lcjuves.com/assets/svg/ZIG.svg" width="47" height="47" alt="ZIG" />&emsp;<img
-    src="https://web.lcjuves.com/assets/svg/Java.svg" width="47" height="47" alt="Java" />&emsp;<img
-    src="https://web.lcjuves.com/assets/svg/Dart.svg" width="47" height="47" alt="Dart" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://fastweb.lcjuves.com/assets/svg/__Rust.svg"><source media="(prefers-color-scheme: light)" srcset="https://fastweb.lcjuves.com/assets/svg/Rust.svg"><img alt="Rust" src="https://fastweb.lcjuves.com/assets/svg/Rust.svg" width="47" height="47"></picture>&emsp;<img src="https://fastweb.lcjuves.com/assets/svg/ZIG.svg" width="47" height="47" alt="ZIG" />&emsp;<img
+    src="https://fastweb.lcjuves.com/assets/svg/Java.svg" width="47" height="47" alt="Java" />&emsp;<img
+    src="https://fastweb.lcjuves.com/assets/svg/Dart.svg" width="47" height="47" alt="Dart" />
 
 ```rust
 /**
@@ -71,7 +71,7 @@ fn main() -> Result<()> {
 }
 ```
 
-## <img src="https://web.lcjuves.com/assets/svg/rustacean-flat-happy.svg" width="32" height="32" alt="Rustacean Happy" align="top"/>&nbsp; [Rustaceans Or Ferris Says](https://github.com/LcJuves/rustaceans)
+## <img src="https://fastweb.lcjuves.com/assets/svg/rustacean-flat-happy.svg" width="32" height="32" alt="Rustacean Happy" align="top"/>&nbsp; [Rustaceans Or Ferris Says](https://github.com/LcJuves/rustaceans)
 
 ### At least those who provide the best things to people for free should be respected !!!
 
