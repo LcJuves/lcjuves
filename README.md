@@ -15,7 +15,7 @@
  * @author Liangcheng Juves
  */
 fn main() {
-    print!("hello,world\n");
+    println!("Hello, World!");
 }
 ```
 
