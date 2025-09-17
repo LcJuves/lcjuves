@@ -77,7 +77,7 @@ fn main() -> Result<()> {
 
 ### [Click me](https://github.com/MeyouRepo) to discover the joy of life
 
-#### [Dev Fans](https://devfans.lcjuves.com) | [Where](https://where.lcjuves.com) | [My Personal Blog](https://blog.lcjuves.com) | [Open Developer Books](https://odb.lcjuves.com)
+#### [Come](https://come.lcjuves.com) | [Where](https://where.lcjuves.com) | [My Personal Blog](https://blog.lcjuves.com) | [Open Developer Books](https://odb.lcjuves.com)
 
 <!--
 **LcJuves/lcjuves** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
