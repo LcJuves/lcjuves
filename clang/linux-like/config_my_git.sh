@@ -22,19 +22,19 @@ rm -rf ~/.ssh/id_* >/dev/null 2>&1
 rm -f ~/.ssh/known_hosts >/dev/null 2>&1
 rm -rf /etc/ssh/ssh_host_* >/dev/null 2>&1
 
-ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 4096 \
+ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa -q -b 8192 \
     -C "$USER_EMAIL"
 
-ssh-keygen -t ed25519 -N '' -f ~/.ssh/id_ed25519 -q -b 4096 \
+ssh-keygen -t ed25519 -N '' -f ~/.ssh/id_ed25519 -q -b 8192 \
     -C "$USER_EMAIL"
 
 cat ~/.ssh/id_rsa.pub >>~/.ssh/authorized_keys
 cat ~/.ssh/id_ed25519.pub >>~/.ssh/authorized_keys
 
 ssh-keygen -t dsa -N '' -f /etc/ssh/ssh_host_dsa_key -q -C "$USER_EMAIL" &&
-    ssh-keygen -t rsa -N '' -f /etc/ssh/ssh_host_rsa_key -q -b 4096 -C "$USER_EMAIL" &&
+    ssh-keygen -t rsa -N '' -f /etc/ssh/ssh_host_rsa_key -q -b 8192 -C "$USER_EMAIL" &&
     ssh-keygen -t ecdsa -N '' -f /etc/ssh/ssh_host_ecdsa_key -q -C "$USER_EMAIL" &&
-    ssh-keygen -t ed25519 -N '' -f /etc/ssh/ssh_host_ed25519_key -q -b 4096 -C "$USER_EMAIL"
+    ssh-keygen -t ed25519 -N '' -f /etc/ssh/ssh_host_ed25519_key -q -b 8192 -C "$USER_EMAIL"
 
 ssh-keygen -r github.com
 ssh-keygen -r gitlab.com
